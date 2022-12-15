@@ -1,0 +1,107 @@
+/* 顶部 */
+.header{
+    height: 170px;
+}
+.header .line{
+    width: 100%;
+    height: 30px;
+    background-color: #2481ff;
+    margin-top: 20px;
+}
+
+
+/* 历史导航 */
+.am-breadcrumb{
+    padding-left: 80px;
+    background-color: #fff;
+    border: none;
+}
+
+
+.am-breadcrumb li a{
+    color: #494949;
+} 
+
+
+.am-breadcrumb li a:hover{
+    color: #735e44;
+}
+
+
+/* 内容 */
+.detail .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail .left{
+    margin-left: 80px;
+}
+
+.detail .head{
+    margin-bottom: 20px;
+}
+
+.detail .head h2{
+    letter-spacing: 2px;
+    line-height: 60px;
+    width: 700px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.detail .body{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.detail .body i img{
+    margin-bottom: 3px;
+}
+
+.detail .bottom img{
+    width: 720px;
+    padding-bottom: 30px;
+}
+
+.detail .bottom p{
+    text-indent: 2em;
+    width: 720px;
+    line-height: 30px;
+}
+
+.detail .right{
+    margin-top: 10px;
+    position: relative;
+}
+
+.detail .right .box{
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    border-bottom: 3px solid #5f5d5a;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    width: 48px;
+}
+
+.detail .right h2{
+    padding-top: 4px;
+    margin-left: 49px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.detail .right a{
+    text-decoration: none;
+}
+
+.detail .right p{
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.detail .right a p:hover{
+    color: #735e44;
+}

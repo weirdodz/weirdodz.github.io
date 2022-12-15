@@ -1,0 +1,151 @@
+
+.country_location{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 55px;
+}
+
+.country_location .hd{
+    padding-left: 20px;
+}
+
+.country_location .hd .top a{
+    display: inline-block;
+    width: 165px;
+    height: 50px;
+    /* background-color: #2481ff; */
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    transition: all 0.3s;
+}
+
+.country_location .hd .top a:first-child{
+    background-color: #2481ff;
+    color: #fff;
+}
+
+.country_location .hd .top a:hover{
+    background-color: #2481ff;
+    color: #fff;
+}
+
+.country_location .hd .bottom{
+    height: 40px;
+    background-color: #f4f4f4;
+}
+
+.country_location .hd .bottom a{
+    font-size: 16px;
+    color: #494949;
+    line-height: 40px;
+    margin-left: 40px;
+    padding-bottom: 8px;
+}
+
+.country_location .hd .bottom a:first-child{
+    color: #222;
+    font-weight: normal;
+    border-bottom: 3px solid #735e44;
+}
+
+.country_location .hd .bottom a:hover{
+    border-bottom: 3px solid #735e44;
+    transition: all .5s;
+}
+
+
+/* 地理位置 */
+.location{
+    margin-bottom: 150px;
+}
+.location .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .location .content{
+    flex: 1;
+} */
+
+.location .content .hd{
+    padding-left: 40px;
+}
+
+.location .content .hd hr{
+    width: 740px;
+    margin-bottom: 30px;
+}
+
+.location .content .hd h2{
+    font-size: 18px;
+    color: #473a29;
+}
+
+.location .content .bd{
+    margin-left: 32px;
+    width: 800px;
+    
+}
+
+.location .content .bd p{
+    width: 740px;
+    font-size: 16px;
+    color: #222;
+    line-height: 35px;
+}
+
+
+.location .focous .hd{
+    position: relative;
+}
+
+.location .focous .hd h2{
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.location .focous .hd span{
+    position: absolute;
+    top: -3px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #735e44;
+}
+
+.location .focous .hd hr{
+    margin-bottom: 30px;
+}
+
+.location .focous .bd p:hover{
+    color: #735e44;
+}
+
+.location .focous .bd .t{
+    background-image: url(../images/图层6拷贝.png);
+    width: 360px;
+    margin-bottom: 30px;
+    padding: 30px 20px 30px 20px;
+}
+
+.location .focous .bd .t p{
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.location .focous .bd .b{
+    background-image: url(../images/图层6拷贝.png);
+    width: 360px;
+    padding: 30px 20px 30px 20px;
+}
+
+.location .focous .bd .b p{
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+}

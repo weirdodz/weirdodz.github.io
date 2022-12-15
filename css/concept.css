@@ -1,0 +1,140 @@
+/* .header .nav a:nth-child(2){
+    font-size: 20px;
+    background-color: #014fd0;
+} */
+/* 十国概况-基本概念 */
+.country_location{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    height: 55px;
+}
+
+.country_location .hd{
+    padding-left: 20px;
+}
+
+.country_location .hd .top a{
+    display: inline-block;
+    width: 165px;
+    height: 50px;
+    /* background-color: #2481ff; */
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    transition: all 0.3s;
+}
+
+.country_location .hd .top a:nth-child(3){
+    background-color: #2481ff;
+    color: #fff;
+}
+
+.country_location .hd .top a:hover{
+    background-color: #2481ff;
+    color: #fff;
+}
+
+.country_location .hd .bottom{
+    height: 40px;
+    background-color: #f4f4f4;
+}
+
+.country_location .hd .bottom a{
+    font-size: 16px;
+    color: #494949;
+    line-height: 40px;
+    margin-left: 40px;
+    padding-bottom: 8px;
+}
+
+/* .country_location .hd .bottom a:nth-child(2){
+    color: #222;
+    font-weight: normal;
+    border-bottom: 3px solid #735e44;
+} */
+
+.country_location .hd .bottom a:hover{
+    border-bottom: 3px solid #735e44;
+}
+
+/* 基本概念 */
+.concept .wrapper{
+    display: flex;
+}
+
+.concept .left .hd h2{
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.concept .left .hd hr{
+    margin-right: 80px;
+    width: 700px;
+}
+
+.concept .left .hd h2 b{
+    color: #735e44;
+    margin-right: 5px;
+}
+
+.concept .left .md{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.concept .left .md img{
+    width: 750px;
+}
+
+.concept .left .bd{
+    margin-left: 50px;
+    width: 750px;
+}
+
+.concept .left .bd p{
+    font-size: 14px;
+    color: #222;
+    line-height: 25px;
+}
+
+.concept .right{
+    margin-left: 30px;
+}
+
+.concept .right .hd{
+    position: relative;
+}
+
+.concept .right .hd img{
+    position: absolute;
+    display: block;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-bottom: 3px solid #735e44;
+}
+
+.concept .right .hd h2{
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.concept .right .bd .t,
+.concept .right .bd .b
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.concept .right .bd .t p,
+.concept .right .bd .b p
+{
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    font-size: 24px;
+    color: #473a29;
+}
+

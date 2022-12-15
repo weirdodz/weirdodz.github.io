@@ -1,0 +1,55 @@
+/* 搜索结果 */
+.search_result .head{
+    margin: 30px 0 0 50px;
+}
+
+.search_result .head h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.search_result .head p{
+    color: #926d41;
+    letter-spacing: 2px;
+}
+
+.search_result hr{
+    width: 100%;
+}
+
+.search_result .body{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.search_result .body .txt{
+    margin-bottom: 30px;
+}
+
+.search_result .body .txt a{
+    font-size: 20px;
+    color: #494949;
+}
+
+.search_result .body .txt p{
+    margin-top: 10px;
+    color: #494949;
+}
+
+.search_result .body .txt p i{
+    color: #9b9b9b;
+    margin-left: 50px;
+}
+
+.search_result .body nav ul{
+    margin-top: 70px;
+}
+
+.search_result .body nav .page-item{
+    margin: 0 10px;
+}
+
+.search_result .body nav .page-item a{
+    background-color: #eeeeee;
+    color: #494949;
+}

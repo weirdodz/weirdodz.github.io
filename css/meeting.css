@@ -1,0 +1,226 @@
+/* .header .nav a:nth-child(8){
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 24px;
+    background-color: #014fd0;
+} */
+
+.meeting{
+    margin-top: 30px;
+}
+
+.meeting .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meeting .left .hd{
+    margin-bottom: 30px;
+}
+
+.meeting .left .hd h2{
+    margin-bottom: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #473a29;
+}
+
+.meeting .left .hd h2 b{
+    margin-right: 5px;
+    color: #735e44;
+}
+
+.meeting .left .bd h5{
+    margin-left: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* .meeting .left .bd{
+    padding-left: 20px;
+} */
+
+.meeting .left .bd .one,
+.meeting .left .bd .two{
+    margin-bottom: 30px;
+}
+
+.meeting .left .bd .one div,
+.meeting .left .bd .two div,
+.meeting .left .bd .three div
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 70px 20px 20px;
+    width: 800px;
+    background-color: #f6f6f6;
+    border-radius: 16px;
+}
+
+.meeting .left .bd .one div p,
+.meeting .left .bd .two div p,
+.meeting .left .bd .three div p{
+    width: 700px;
+    height: auto;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.meeting .left .bd a{
+    text-decoration: none;
+}
+
+.meeting .left .bd a:hover{
+    color: #735e44;
+}
+
+.meeting .left .bd i{
+    margin-left: 15px;
+}
+
+.meeting .left ul{
+    margin-top: 60px;
+}
+
+.meeting .right .bd p:hover{
+    color: #735e44;
+}
+
+.meeting .right{
+    margin-left: 30px;
+}
+
+.meeting .right .hd{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.meeting .right .hd h2{
+    margin-top: 9px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.meeting .right .hd img{
+    position: absolute;
+    top: -4px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #735e44;
+}
+
+.meeting .right .bd .t{
+    background-image: url(../images/图层6拷贝.png);
+    width: 360px;
+    margin-bottom: 30px;
+    padding: 30px 20px 30px 20px;
+}
+
+.meeting .right .bd .t p{
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.meeting .right .bd .b{
+    background-image: url(../images/图层6拷贝.png);
+    width: 360px;
+    padding: 30px 20px 30px 20px;
+}
+
+.meeting .right .bd .b p{
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.meeting .right .dongtai{
+    margin-top: 30px;
+    position: relative;
+}
+
+.meeting .right .dongtai .box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom: 3px solid #5f5d5a;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    width: 48px;
+}
+
+.meeting .right .dongtai h2,
+.meeting .right .xueshu h2
+{
+    margin-left: 49px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.meeting .right .dongtai p{
+    font-size: 16px;
+    line-height: 60px;
+    width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.meeting .right .dongtai a{
+    text-decoration: none;
+}
+
+.meeting .right .dongtai a p:hover{
+    color: #735e44;
+}
+
+.meeting .right .xueshu{
+    position: relative;
+    margin-top: 10px;
+}
+
+.meeting .right .xueshu .box{
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 48px;
+    border-bottom: 3px solid #5f5d5a;
+    padding-left: 7px;
+    padding-bottom: 6px;
+}
+
+.meeting .right .xueshu a{
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    width: 360px;
+    background-color: #dcd4cb;
+    border-radius: 8px;
+}
+
+.meeting .right .xueshu a:hover{
+    color: #735e44;
+}
+
+.meeting .left nav ul{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.meeting .left nav .page-item{
+    margin-right: 10px;
+}
+
+.meeting .left nav .page-item a{
+    background-color: #eeeeee;
+    color: #494949;
+}

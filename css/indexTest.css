@@ -1,0 +1,727 @@
+
+.header .header_nav .container a:nth-child(1){
+    font-size: 24px;
+}
+
+/* 公共类 */
+.h2{
+    font-size: 24px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.h3{
+    font-size: 18px;
+}
+
+
+/* 顶部 */
+.header{
+    height: 200px;
+    background-image: url(../images/head.png);
+    background-size: cover;
+}
+
+.header .top{
+    padding-top: 20px;
+    position: relative;
+}
+
+.header .top .search{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.header .top .search .box{
+    position: relative;
+}
+
+.header .top .search input{
+    width: 270px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+}
+
+.header .top .search button{
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 80px;
+    background-color: #179aef;
+    border-radius: 7px;
+    border: none;
+    font-size: 17px;
+}
+
+.header .header_nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.5);
+}
+
+.header .header_nav .container{
+    margin-top: 10px;
+}
+
+.header .header_nav a{
+    display: inline-block;
+    width: 119px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header .header_nav a:hover{
+    background-color: #014fd0;
+}
+
+@media (max-width: 1200px) {
+    .header_nav a{
+        width: 100px!important;
+        height: 50px!important;
+        font-size: 18px!important;
+    }
+}
+
+@media (max-width: 992px) {
+    .header_nav a{
+        width: 80px!important;
+        height: 30px!important;
+        font-size: 16px!important;
+    }
+}
+/* 顶部 */
+
+
+/* 时讯·新闻 */
+.news .body .left img{
+    width: 360px;
+    margin-bottom: 20px;
+}
+
+.news .body .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.news .body .left p{
+    width: 360px;
+    height: 60px;
+    font-size: 13px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+
+.news .body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .body .right .news_nav{
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+    height: 40px;
+    border: 1px solid #179aef;
+    border-radius: 20px;
+    line-height: 54px;
+    vertical-align: middle;
+}
+
+.news .body .right .news_nav h3{
+    vertical-align: middle;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.news .body .right .news_nav h3 img{
+    width: 26px;
+    height: 22px;
+}
+
+.news .body .right .news_nav div{
+    line-height: 40px;
+}
+
+.news .body .right .news_nav a{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 14px;
+    width: 100px;
+    height: 25px;
+    color: #222;
+    line-height: 25px;
+    text-align: center;
+}
+
+.news .body .right .news_nav a:hover{
+    background-color: #179aef;
+    color: #fff;
+}
+
+.news .body .right .body{
+    margin-top: 25px;
+}
+
+.news .body .right .body img{
+    width: 180px;
+}
+
+.news .body .right .body h4{
+    font-size: 17px;
+}
+
+.news .body .right .body .txt p{
+    width: 480px;
+    font-size: 13px;
+    color: #494949;
+}
+
+.news .body .right .body .link {
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 8px;
+    display: block;
+    width: 85px;
+    height: 24px;
+    color: #222;
+    font-size: 13px;
+    line-height: 24px;
+    border: 1px solid #6b5e4b;
+    border-radius: 11px;
+}
+
+.news .body .right .body .link img{
+    width: 9px;
+    height: 13px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+
+.news .body .right .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news .body .right .bottom p{
+    font-size: 13px;
+    color: #494949;
+    line-height: 40px;
+}
+/* 时讯·新闻 */
+
+
+/* 东盟概况 and 各国数据 */
+.dongmeng{
+    background-image: url(../images/图层\ 8.png);
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.dongmeng .row img{
+    width: 210px;
+    padding: 15px;
+    transition: all .5s;
+}
+
+.dongmeng img:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px #494949;
+}
+
+.country_data nav{
+    border-radius: 8px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.country_data .navbar-nav a{
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.country_data .navbar-nav a:hover{
+    background-color: #179aef;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.country_data .txt{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.country_data .txt p{
+    margin-bottom: 30px;
+}
+
+.country_data .txt a{
+    text-decoration: none;
+}
+/* 东盟概况 and 各国数据 */
+
+
+/* 南海文史 and 琼与南洋 */
+.history_nanyang{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.history_nanyang .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history_nanyang .history nav,
+.history_nanyang .nanyang nav 
+{
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #929ca3;
+}
+
+.history_nanyang .history nav a,
+.history_nanyang .nanyang nav a
+{
+    font-size: 24px;
+}
+
+.history_nanyang button{
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.history_nanyang button:hover{
+    background-color: #179aef;
+    color: #fff;
+}
+
+
+.history_nanyang .txt{
+    margin-top: 20px;
+    padding: 20px 30px;
+    border: 1px solid #929ca3;
+    border-top: 0px;
+    border-radius: 5px;
+}
+
+.history_nanyang .txt p{
+    line-height: 50px;
+}
+
+.history_nanyang .txt p a{
+    text-decoration: none;
+}
+/* 南海文史 and 琼与南洋 */
+
+
+/* 学者成果 */
+.result{
+    background-color: #dae6f6;
+    padding-bottom: 30px;
+}
+
+.result .hd{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.result .hd h2{
+    font-size: 24px;
+}
+
+/* 学者成果 */
+.result .hd a,
+.nanhai_meeting .hd a,
+.jidi .hd a,
+.xueshu .hd a
+{
+    text-decoration: none;
+    background-color: #179aef;
+    color: #fff;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.result .bd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.result .bd .pic{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    height: 298px;
+    overflow: hidden;
+}
+
+.result .bd .pic ul{
+    display: flex;
+    width: 1600px;
+    animation: move 25s infinite linear;
+}
+
+@keyframes move {
+    to{
+      transform: translateX(-1120px);
+    }
+}
+
+.result .bd .pic:hover ul{
+    animation-play-state: paused;
+}  
+
+.result .bd .pic img{
+    width: 160px;
+}
+
+.result .bd .pic a{
+    text-decoration: none;
+}
+
+.result .bd .pic h4{
+    font-size: 15px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+
+.result .bd .pic p{
+    font-size: 12px;
+    color: #494949;
+    padding: 0 5px;
+}
+
+.result .bd .txt1{
+    display: flex;
+    background-color: #0089e3;
+    border-radius: 41px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+
+.result .bd .txt1 .box{
+    display: flex;
+    border: 1px solid #dae6f6;
+    background-color: #dae6f6;
+    border-radius: 34px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.result .bd .txt1 .box div{
+    padding-top: 15px;
+}
+
+.result .bd .txt1 img{
+    width: 67px;
+    height: 67px;
+}
+
+.result .bd .txt1 h5{
+    font-size: 15px;
+    text-align: center;
+}
+
+.result .bd .txt1 .box p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.result .bd .txt1 .content{
+    padding: 20px 20px;
+}
+
+.result .bd .txt1 .content p{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.result .bd .txt1 .content a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.result .bd .txt1:hover{
+    transform: translateX(20px);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #494949;
+}
+/* 学者成果 */
+
+
+/* 南海论坛 */
+.nanhai_meeting{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nanhai_meeting .hd{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nanhai_meeting .hd h2{
+    font-size: 24px;
+}
+
+.nanhai_meeting .body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nanhai_meeting .body .left img{
+    width: 360px;
+    transition: all .5s;
+    border-radius: 5px;
+}
+
+.nanhai_meeting .body .left img:hover{
+    transform: translateY(-10px);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px #494949;
+}
+
+.nanhai_meeting .body .left h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.nanhai_meeting .body .left p{
+    font-size: 13px;
+    color: #494949;
+}
+
+.nanhai_meeting .body .right p{
+    margin-bottom: 15px;
+    color: #494949;
+    width: 400px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nanhai_meeting .body .right p a{
+    text-decoration: none;
+}
+
+.nanhai_meeting .body .right_date p{
+    margin-bottom: 15px;
+}
+/* 南海论坛 */
+
+
+/* 基地平台 */
+.jidi{
+    background-color: #dae6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.jidi .hd{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.jidi .hd h2{
+    font-size: 24px;
+}
+
+.jidi .body{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.jidi .body  .left p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 360px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.jidi .body  .left p a{
+    text-decoration: none;
+}
+
+.jidi .body .right{
+    display: flex;
+}
+
+.jidi .body .right a{
+    position: relative;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.jidi .body .right img{
+    width: 160px;
+    transition: all .5s;
+}
+
+.jidi .body .right div{
+    position: absolute;
+    left: 8px;
+    bottom: 9px;
+    display: inline-block;
+    padding-left: 17px;
+    padding-top: 10px;
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    opacity: 0.89;
+    transition: all .5s;
+}
+
+.jidi .body .right a:hover img{
+    transform: translateY(-10px);
+}
+
+.jidi .body .right a:hover div{
+    transform: translateY(-10px);
+}
+/* 基地平台 */
+
+
+/* 学术论坛 */
+.xueshu{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.xueshu .hd{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.xueshu .hd h2{
+    font-size: 24px;
+}
+
+.xueshu .body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.xueshu .body .left img{
+    width: 360px;
+    transition: all .5s;
+    border-radius: 5px;
+}
+
+.xueshu .body .left img:hover{
+    transform: translateY(-10px);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px #494949;
+}
+
+.xueshu .body .left h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.xueshu .body .left p{
+    font-size: 13px;
+    color: #494949;
+}
+
+.xueshu .body .right p{
+    margin-bottom: 15px;
+    color: #494949;
+    width: 400px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.xueshu .body .right p a{
+    text-decoration: none;
+}
+
+.xueshu .body .right_date p{
+    margin-bottom: 15px;
+}
+/* 学术论坛 */
+
+
+/* 底部 */
+.footer{
+    padding-top: 30px;
+    background-color: #016cd0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo img{
+    margin-bottom: 20px;
+    width: 200px;
+    justify-content: center;
+}
+
+.footer .li a{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-right: 1px solid #fff;
+}
+
+.footer .content{
+    margin-top: 25px;
+    padding-bottom: 70px;
+}
+
+.footer .content p{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+/* 底部 */
+
+
+
+
+
+
+
+
