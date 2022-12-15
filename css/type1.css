@@ -1,0 +1,236 @@
+
+/* 主体 */
+.type1 .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type1 .left .hd{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.type1 .left .hd h2{
+    line-height: 30px;
+    margin-left: 45px;
+    font-size: 20px;
+    color: #473a29;
+    text-align: center;
+}
+
+.type1 .left .hd h2 b{
+    margin-right: 5px;
+}
+
+.type1 .left .hd a{
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    color: #494949;
+}
+
+.type1 .left .hd a:hover{
+    color: #735e44;
+}
+
+.type1 .left .md{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.type1 .left .md .a{
+    margin-right: 20px;
+}
+
+.type1 .left .md .a img{
+    width: 260px;
+}
+
+.type1 .left .md .b h3{
+    margin-bottom: 10px;
+}
+
+.type1 .left .md .b h3 a{
+    font-size: 18px;
+
+}
+
+.type1 .left .md .b h3 a:hover{
+    color: #735e44;
+}
+
+.type1 .left .md .b p{
+    width: 500px;
+    height: auto;
+    font-size: 14px;
+    color: #494949;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+.type1 .left .md .b a{
+    text-decoration: none;
+}
+
+.type1 .left .bd p{
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type1 .left .bd p a{
+    text-decoration: none;
+    width: 500px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.type1 .left .bd p a:hover{
+    color: #735e44;
+}
+
+.type1 .right .bd p:hover{
+    color: #735e44;
+}
+
+.type1 .right .bd .t p:hover .t{
+    border: 1px solid #473a29;
+} 
+
+.type1 .right{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.type1 .right .hd{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.type1 .right .hd h2{
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.type1 .right .hd img{
+    position: absolute;
+    top: -4px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #735e44;
+}
+
+.type1 .right .bd .t{
+    background-image: url(../images/图层6拷贝.png);
+    width: 360px;
+    margin-bottom: 30px;
+    padding: 30px 20px 30px 20px;
+}
+
+
+.type1 .right .bd .t p{
+    font-size: 24px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.type1 .right .bd .b{
+    background-image: url(../images/图层6拷贝.png);
+    width: 360px;
+    padding: 30px 20px 30px 20px;
+}
+
+.type1 .right .bd .b p{
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.type1 .right .dongtai{
+    margin-top: 30px;
+    position: relative;
+}
+
+.type1 .right .dongtai .box{
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    border-bottom: 3px solid #735e44;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    width: 48px;
+}
+
+.type1 .right .dongtai h2,
+.type1 .right .xueshu h2
+{
+    margin-left: 49px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.type1 .right .dongtai a{
+    text-decoration: none;
+}
+
+.type1 .right .dongtai p{
+    font-size: 16px;
+    line-height: 60px;
+    width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.type1 .right .dongtai a p:hover{
+    color: #735e44;
+}
+
+.type1 .right .xueshu{
+    position: relative;
+    margin-top: 10px;
+}
+
+.type1 .right .xueshu .box{
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 48px;
+    border-bottom: 3px solid #735e44;
+    padding-left: 7px;
+    padding-bottom: 6px;
+}
+
+.type1 .right .xueshu a{
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    width: 360px;
+    background-color: #dcd4cb;
+    border-radius: 8px;
+}
+
+.type1 .xueshu a:hover{
+    color: #735e44;
+}
+
+.type1 .left ul{
+    margin-top: 60px;
+}
+
+
+
